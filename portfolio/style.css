@@ -1,0 +1,185 @@
+/* style.css */
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333;
+  background-color: #431452;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+h2 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+h3 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+h4 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+p {
+  margin-bottom: 1rem;
+}
+
+a {
+  color: #e9eef1;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.navbar {
+  background-color: #1190728c;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+}
+
+.navbar-brand {
+  font-size: 2rem;
+  font-weight: 850;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #f3e8e8;
+  padding: 0 1rem;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+  color: #007bff;
+}
+
+#about {
+  background-color: #333; 
+  padding: 50px 0; 
+}
+
+#about .container {
+  max-width: 800px; 
+  margin: 0 auto; 
+  padding: 20px; 
+}
+
+#about h1 {
+  color: #fff; 
+  font-size: 36px; 
+  margin-bottom: 20px; 
+}
+
+#about img {
+  width: 200px; 
+  height: 200px; 
+  border-radius: 50%; 
+  margin: 20px auto; 
+}
+
+#about p {
+  color: #fff; /* set the font color to white */
+  font-size: 18px; 
+  margin-bottom: 20px; 
+  text-align: justify; 
+}
+
+.bio {
+  position: relative;
+  z-index: 1;
+  text-align: center;
+  color: #fff;
+}
+
+.bio-title {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.bio-text {
+  font-size: 1.2rem;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.socials {
+  display: flex;
+  justify-content: center;
+  margin-top: 3rem;
+}
+
+.socicon {
+  width: 40px;
+  height: 40px;
+  margin: 0 1rem;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.socicon:hover {
+  transform: scale(1.2);
+}
+
+.portfolio {
+  padding: 5rem 0;
+}
+
+.portfolio-title {
+  font-size: 2rem;
+  margin-bottom: 3rem;
+  text-align: center;
+}
+
+.portfolio-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.portfolio-item {
+  position: relative;
+  width: 33.33%;
+  overflow: hidden;
+  transition: transform 0.3s ease;
+}
+
+.portfolio-item:hover {
+  transform: scale(1.05);
+}
+
+.portfolio-img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.portfolio-overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 
+}
+footer {
+  background-color: #333; /* change the background color to dark gray */
+  padding: 2rem 0;
+  text-align: center;
+  color: #fff; /* change the text color to white */
+}
+
+footer p {
+  margin-bottom: 0;
+}
